@@ -1,4 +1,4 @@
-ABORT		Quit at once
+ABORT		Quit without confirmation
 ACCESSKEY	Pop up accesskey menu
 ADD_BOOKMARK	Add current page to bookmarks
 ALARM		Set alarm
@@ -28,18 +28,18 @@ EDIT		Edit local source
 EDIT_SCREEN	Edit rendered copy of document
 END		Go to the last line
 EXEC_SHELL	Execute shell command and display output
-EXIT		Quit at once
+EXIT	    Quit without confirmation
 EXTERN		Display using an external browser
 EXTERN_LINK	Display target using an external browser
-FRAME		Toggle rendering HTML frames
-GOTO		Open specified document in a new buffer
+FRAME	    Toggle rendering HTML frames
+GOTO      Open specified document in a new buffer
 GOTO_HOME	Return to the homepage (specified HTTP_HOME or WWW_HOME variable)
 GOTO_LINE	Go to the specified line
 GOTO_LINK	Follow current hyperlink in a new buffer
 GOTO_RELATIVE	Go to relative address
-HELP		Show help panel
-HISTORY 	Show browsing history
-INFO		Display information about the current document
+HELP		  Show help panel
+HISTORY   Show browsing history
+INFO	    Display information about the current document
 INTERRUPT	Suspend w3m to background
 ISEARCH 	Incremental search forward
 ISEARCH_BACK	Incremental search backward
@@ -88,14 +88,14 @@ NEXT_UP		Move upward to the next hyperlink
 NEXT_VISITED	Move to the next visited hyperlink
 NEXT_WORD	Move to the next word
 NOTHING 	Do nothing
-NULL		Do nothing
+NULL		  Do nothing
 OPTIONS 	Display options setting panel
-PEEK		Show current address
+PEEK		  Show current address
 PEEK_IMG	Show image address
 PEEK_LINK	Show target address
 PIPE_BUF	Pipe current buffer through a shell command and display output
 PIPE_SHELL	Execute shell command and display output
-PREV		Switch to the previous buffer
+PREV		  Switch to the previous buffer
 PREV_HALF_PAGE	Scroll up half a page
 PREV_LINK	Move to the previous hyperlink
 PREV_MARK	Go to the previous mark
@@ -103,17 +103,17 @@ PREV_PAGE	Scroll up one page
 PREV_TAB	Switch to the previous tab
 PREV_VISITED	Move to the previous visited hyperlink
 PREV_WORD	Move to the previous word
-PRINT		Save rendered document
-QUIT		Quit with confirmation request
+PRINT	    Save rendered document
+QUIT	    Quit with confirmation request
 READ_SHELL	Execute shell command and display output
-REDO		Cancel the last undo
+REDO		  Cancel the last undo
 REDRAW		Draw the screen anew
 REG_MARK	Mark all occurences of a pattern
 REINIT		Reload configuration file
 RELOAD		Load current document anew
 RESHAPE 	Re-render document
-RIGHT		Shift screen one column right
-SAVE		Save document source
+RIGHT	  	Shift screen one column right
+SAVE	  	Save document source
 SAVE_IMAGE	Save inline image
 SAVE_LINK	Save hyperlink target
 SAVE_SCREEN	Save rendered document
